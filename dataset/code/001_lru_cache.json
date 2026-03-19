@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "category": "code",
+  "subcategory": "python",
+  "difficulty": "medium",
+  "prompt": "请用 Python 实现 LRU 缓存，要求：\n1. get 和 put 操作都是 O(1) 时间复杂度\n2. 使用双向链表 + 哈希表\n3. 包含完整的单元测试\n4. 代码规范，有详细注释",
+  "expected_output": "完整的 LRUCache 类实现，包含 Node 类和 LRUCache 类",
+  "scoring": {
+    "functionality": 40,
+    "code_style": 20,
+    "boundary_handling": 20,
+    "comments": 10,
+    "performance": 10
+  },
+  "test_cases": [
+    {"input": "LRUCache(2).put(1,1); put(2,2); get(1)", "expected": 1},
+    {"input": "LRUCache(2).put(1,1); put(2,2); put(3,3); get(1)", "expected": -1},
+    {"input": "LRUCache(1).put(1,1); put(2,2); get(1)", "expected": -1}
+  ]
+}

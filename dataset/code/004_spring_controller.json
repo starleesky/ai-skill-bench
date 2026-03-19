@@ -1,0 +1,15 @@
+{
+  "id": 4,
+  "category": "code",
+  "subcategory": "java",
+  "difficulty": "hard",
+  "prompt": "请用 Java 实现 Spring Boot REST Controller，要求：\n1. CRUD 接口（增删改查）\n2. 统一响应格式\n3. 全局异常处理\n4. Swagger 文档注解\n5. 包含单元测试",
+  "expected_output": "完整的 UserController 类实现",
+  "scoring": {
+    "functionality": 40,
+    "code_style": 20,
+    "boundary_handling": 20,
+    "comments": 10,
+    "performance": 10
+  }
+}

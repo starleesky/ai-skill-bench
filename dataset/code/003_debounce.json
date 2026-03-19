@@ -1,0 +1,15 @@
+{
+  "id": 3,
+  "category": "code",
+  "subcategory": "javascript",
+  "difficulty": "medium",
+  "prompt": "请用 JavaScript 实现防抖函数 debounce，要求：\n1. 支持立即执行选项\n2. 返回取消函数\n3. 支持 TypeScript 类型定义\n4. 包含使用示例",
+  "expected_output": "完整的 debounce 函数实现",
+  "scoring": {
+    "functionality": 40,
+    "code_style": 20,
+    "boundary_handling": 20,
+    "comments": 10,
+    "performance": 10
+  }
+}

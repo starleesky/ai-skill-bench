@@ -1,0 +1,15 @@
+{
+  "id": 5,
+  "category": "code",
+  "subcategory": "sql",
+  "difficulty": "medium",
+  "prompt": "请编写 SQL 查询：\n表结构：users(id, name, created_at), orders(id, user_id, amount, status, created_at)\n需求：查询每个用户的订单总数和总金额，只显示订单数>5 的用户，按总金额降序排列",
+  "expected_output": "正确的 SQL 查询语句，包含 GROUP BY 和 HAVING",
+  "scoring": {
+    "functionality": 40,
+    "code_style": 20,
+    "boundary_handling": 20,
+    "comments": 10,
+    "performance": 10
+  }
+}

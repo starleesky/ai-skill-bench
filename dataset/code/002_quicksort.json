@@ -1,0 +1,15 @@
+{
+  "id": 2,
+  "category": "code",
+  "subcategory": "python",
+  "difficulty": "easy",
+  "prompt": "请用 Python 实现快速排序算法，要求：\n1. 原地排序，空间复杂度 O(1)\n2. 平均时间复杂度 O(nlogn)\n3. 包含性能测试（对比内置 sorted 函数）\n4. 添加类型注解",
+  "expected_output": "完整的 quicksort 函数实现",
+  "scoring": {
+    "functionality": 40,
+    "code_style": 20,
+    "boundary_handling": 20,
+    "comments": 10,
+    "performance": 10
+  }
+}
