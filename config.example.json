@@ -1,0 +1,25 @@
+{
+  "models": {
+    "qwen3.5-plus": {
+      "provider": "bailian",
+      "api_key": "sk-sp-xxx-your-api-key-here",
+      "base_url": "https://coding.dashscope.aliyuncs.com/v1",
+      "model_id": "qwen3.5-plus"
+    },
+    "kimi-k2.5": {
+      "provider": "moonshot",
+      "api_key": "sk-kimi-xxx-your-api-key-here",
+      "base_url": "https://api.moonshot.cn/v1",
+      "model_id": "kimi-k2.5"
+    }
+  },
+  "test": {
+    "timeout": 300,
+    "retry": 3,
+    "parallel": 2
+  },
+  "report": {
+    "output_dir": "results/reports",
+    "format": ["markdown", "html", "json"]
+  }
+}
