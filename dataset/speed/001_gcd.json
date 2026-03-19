@@ -1,0 +1,11 @@
+{
+  "id": 11,
+  "category": "speed",
+  "difficulty": "easy",
+  "prompt": "写一个 Python 函数，计算两个数的最大公约数。",
+  "expected_output": "简洁正确的 GCD 函数",
+  "scoring": {
+    "correctness": 70,
+    "speed": 30
+  }
+}

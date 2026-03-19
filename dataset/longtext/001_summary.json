@@ -1,0 +1,13 @@
+{
+  "id": 8,
+  "category": "longtext",
+  "difficulty": "hard",
+  "prompt": "请阅读以下技术文章并总结核心要点（限 300 字）：\n\nOpenAI Harness Engineering 文章讲述了他们如何用纯 AI 生成代码构建产品。核心经验：\n\n1. 人类掌舵，智能体执行 - 工程师设计环境而非写代码\n2. 代码仓库即记录系统 - AGENTS.md 作为内容目录，详细知识放在 docs/\n3. 架构约束强制执行 - 分层规则 + Lint 自动检查\n4. 垃圾收集机制 - 定期扫描技术债务，后台智能体发起重构 PR\n5. 为智能体可读性优化 - UI、日志、指标对 AI 透明\n\n实验数据：5 个月，3 人团队，100 万行代码，1500 个 PR，人均每天 3.5 个 PR。\n\n请总结这篇文章的 5 个核心经验教训。",
+  "expected_output": "准确总结 5 个核心经验，无明显遗漏",
+  "scoring": {
+    "completeness": 40,
+    "accuracy": 30,
+    "structure": 20,
+    "conciseness": 10
+  }
+}

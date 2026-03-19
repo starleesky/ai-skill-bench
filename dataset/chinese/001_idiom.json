@@ -1,0 +1,12 @@
+{
+  "id": 10,
+  "category": "chinese",
+  "difficulty": "medium",
+  "prompt": "解释\"画蛇添足\"这个成语的意思，并给出 3 个使用场景示例。",
+  "expected_output": "正确的成语解释和恰当的使用场景",
+  "scoring": {
+    "understanding": 50,
+    "examples": 30,
+    "expression": 20
+  }
+}

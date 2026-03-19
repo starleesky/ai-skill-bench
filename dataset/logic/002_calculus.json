@@ -1,0 +1,12 @@
+{
+  "id": 7,
+  "category": "logic",
+  "difficulty": "easy",
+  "prompt": "求积分：∫(x²+3x+2)dx 从 0 到 2 的定积分\n\n请给出详细计算步骤。",
+  "expected_output": "正确答案：22/3，需要微积分计算步骤",
+  "scoring": {
+    "answer_correct": 60,
+    "reasoning_process": 30,
+    "steps_clear": 10
+  }
+}

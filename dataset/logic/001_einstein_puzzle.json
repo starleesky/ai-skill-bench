@@ -1,0 +1,12 @@
+{
+  "id": 6,
+  "category": "logic",
+  "difficulty": "medium",
+  "prompt": "有 5 个房子，每个房子颜色不同，主人国籍不同，喝的饮料不同，养的宠物不同，抽的烟品牌不同。\n\n已知：\n1. 英国人住红色房子\n2. 瑞典人养狗\n3. 丹麦人喝茶\n4. 绿色房子在白色房子左边\n5. 绿色房子主人喝咖啡\n6. 抽 Pall Mall 的人养鸟\n7. 黄色房子主人抽 Dunhill\n8. 住中间房子的人喝牛奶\n9. 挪威人住第一个房子\n10. 抽 Blends 的人住在养猫的人旁边\n11. 养马的人住在抽 Dunhill 的人旁边\n12. 抽 BlueMaster 的人喝啤酒\n13. 德国人抽 Prince\n14. 挪威人住在蓝色房子旁边\n15. 抽 Blends 的人有一个喝水的邻居\n\n问：谁养鱼？",
+  "expected_output": "德国人养鱼，需要完整推理过程",
+  "scoring": {
+    "answer_correct": 60,
+    "reasoning_process": 30,
+    "steps_clear": 10
+  }
+}

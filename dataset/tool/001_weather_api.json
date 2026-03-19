@@ -1,0 +1,13 @@
+{
+  "id": 9,
+  "category": "tool",
+  "difficulty": "medium",
+  "prompt": "我需要查询上海今天的天气，应该使用哪个 API？请构造完整的请求 URL 和参数。",
+  "expected_output": "正确的 API 选择和请求构造",
+  "scoring": {
+    "api_selection": 40,
+    "parameters": 30,
+    "error_handling": 20,
+    "response_parsing": 10
+  }
+}
